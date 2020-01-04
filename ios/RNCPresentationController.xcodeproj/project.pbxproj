@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		664F4227233E11EE001AE69E /* RNCSignInWithAppleButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 664F4224233E11ED001AE69E /* RNCSignInWithAppleButtonManager.m */; };
 		664F4228233E11EE001AE69E /* RNCSignInWithAppleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 664F4226233E11EE001AE69E /* RNCSignInWithAppleButton.m */; };
-		B3E7B58A1CC2AC0600A0062D /* AppleSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* AppleSignIn.m */; };
+		B3E7B58A1CC2AC0600A0062D /* RNCPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNCPresentationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,12 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libAppleSignIn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppleSignIn.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		134814201AA4EA6300B7C361 /* RNCPresentationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = RNCPresentationController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		664F4224233E11ED001AE69E /* RNCSignInWithAppleButtonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCSignInWithAppleButtonManager.m; sourceTree = "<group>"; };
 		664F4225233E11EE001AE69E /* RNCSignInWithAppleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCSignInWithAppleButton.h; sourceTree = "<group>"; };
 		664F4226233E11EE001AE69E /* RNCSignInWithAppleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCSignInWithAppleButton.m; sourceTree = "<group>"; };
-		B3E7B5881CC2AC0600A0062D /* AppleSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleSignIn.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* AppleSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleSignIn.m; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNCPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCPresentationController.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNCPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCPresentationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libAppleSignIn.a */,
+				134814201AA4EA6300B7C361 /* RNCPresentationController.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +58,8 @@
 				664F4225233E11EE001AE69E /* RNCSignInWithAppleButton.h */,
 				664F4226233E11EE001AE69E /* RNCSignInWithAppleButton.m */,
 				664F4224233E11ED001AE69E /* RNCSignInWithAppleButtonManager.m */,
-				B3E7B5881CC2AC0600A0062D /* AppleSignIn.h */,
-				B3E7B5891CC2AC0600A0062D /* AppleSignIn.m */,
+				B3E7B5881CC2AC0600A0062D /* RNCPresentationController.h */,
+				B3E7B5891CC2AC0600A0062D /* RNCPresentationController.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* AppleSignIn */ = {
+		58B511DA1A9E6C8500147676 /* RNCPresentationController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AppleSignIn" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNCPresentationController" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = AppleSignIn;
+			name = RNCPresentationController;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libAppleSignIn.a */;
+			productReference = 134814201AA4EA6300B7C361 /* RNCPresentationController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AppleSignIn" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNCPresentationController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* AppleSignIn */,
+				58B511DA1A9E6C8500147676 /* RNCPresentationController */,
 			);
 		};
 /* End PBXProject section */
@@ -123,7 +123,7 @@
 			files = (
 				664F4227233E11EE001AE69E /* RNCSignInWithAppleButtonManager.m in Sources */,
 				664F4228233E11EE001AE69E /* RNCSignInWithAppleButton.m in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* AppleSignIn.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNCPresentationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +234,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = AppleSignIn;
+				PRODUCT_NAME = RNCPresentationController;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -250,7 +250,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = AppleSignIn;
+				PRODUCT_NAME = RNCPresentationController;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -258,7 +258,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "AppleSignIn" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNCPresentationController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -267,7 +267,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "AppleSignIn" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNCPresentationController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,
